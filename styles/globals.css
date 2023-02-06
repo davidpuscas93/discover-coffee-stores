@@ -1,13 +1,5 @@
-:root {
-  --text-purple: rgba(67, 56, 202, 1);
-  --text-purple-dark: rgba(79, 70, 229, 1);
-  --text-black: rgba(17, 24, 39, 1);
-  --text-white-100: rgba(229, 231, 235, 1);
-}
-
 html,
 body {
-  overflow-x: hidden;
   padding: 0;
   margin: 0;
   font-family: IBMPlexSans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
@@ -17,6 +9,30 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: #373b64;
+}
+
+@font-face {
+  font-family: 'IBMPlexSans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts/IBMPlexSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'IBMPlexSans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts/IBMPlexSans-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'IBMPlexSans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts/IBMPlexSans-Bold.ttf) format('truetype');
 }
 
 a {
@@ -71,4 +87,11 @@ button:disabled {
 .glass:hover {
   background: hsla(0, 0%, 100%, 0.7);
   border: 1px solid #fff;
+}
+
+:root {
+  --text-purple: rgba(67, 56, 202, 1);
+  --text-purple-dark: rgba(79, 70, 229, 1);
+  --text-black: rgba(17, 24, 39, 1);
+  --text-white-100: rgba(229, 231, 235, 1);
 }
