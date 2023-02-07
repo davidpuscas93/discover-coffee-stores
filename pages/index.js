@@ -66,7 +66,7 @@ export default function Home({ coffeeStores }) {
         <link rel='icon' href='/favicon.ico' />
         <meta
           name='description'
-          content='allows you to discover coffee stores near you'
+          content='Allows you to discover coffee stores near you.'
         />
       </Head>
       <main className={styles.main}>
